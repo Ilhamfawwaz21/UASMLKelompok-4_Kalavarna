@@ -1,0 +1,641 @@
+.ML {
+  background-color: #fff4df;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box; /* Pastikan padding termasuk dalam width */
+  text-align: center; /* Pusatkan teks di dalam elemen */
+}
+
+@media (min-width: 1024px) {
+  .ML {
+    width: 80%; /* Atur lebar 80% untuk layar laptop */
+    margin-left: auto; /* Pusatkan elemen */
+    margin-right: auto; /* Pusatkan elemen */
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-wrapper {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 32px;
+}
+
+.ML .div {
+  background-color: #fff4df;
+  overflow: hidden;
+  width: 1512px;
+  height: 4875px;
+  position: relative;
+}
+
+.ML .overlap {
+  position: absolute;
+  width: 1658px;
+  height: 2765px;
+  top: 0;
+  left: 0;
+}
+
+.ML .overlap-group {
+  position: absolute;
+  width: 1512px;
+  height: 330px;
+  top: 0;
+  left: 0;
+}
+
+.ML .ellipse {
+  position: absolute;
+  width: 297px;
+  height: 236px;
+  top: 0;
+  left: 0;
+}
+
+.ML .vector {
+  position: absolute;
+  width: 66px;
+  height: 99px;
+  top: 231px;
+  left: 57px;
+}
+
+.ML .line {
+  width: 1512px;
+  height: 1px;
+  top: 66px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.ML .img {
+  width: 1px;
+  height: 67px;
+  top: 0;
+  left: 333px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.ML .text-wrapper {
+  position: absolute;
+  top: 12px;
+  left: 57px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 37px;
+  position: absolute;
+  top: 18px;
+  left: 568px;
+}
+
+.ML .text-wrapper-2, .ML .text-wrapper-3, .ML .text-wrapper-9 {
+  position: relative;
+  margin-top: -1px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  align-self: center; /* Pusatkan elemen */
+  cursor: pointer; /* Ganti cursor saat dihover */
+}
+
+.ML .text-wrapper-2 {
+  color: #c56f54;
+}
+
+.ML .text-wrapper-3 {
+  font-style: italic;
+  color: #3e3e3e;
+  font-size: 23px;
+}
+
+.ML .text-wrapper-9 {
+  font-style: italic;
+  color: #3e3e3e;
+}
+
+.ML .overlap-2 {
+  position: absolute;
+  width: 1658px;
+  height: 2516px;
+  top: 249px;
+  left: 0;
+}
+
+.ML .rectangle {
+  position: absolute;
+  width: 1095px;
+  height: 652px;
+  top: 518px;
+  left: 208px;
+}
+
+.ML .which-color-SUITS {
+  position: absolute;
+  width: 725px;
+  top: 660px;
+  left: 384px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  color: black;
+  font-size: 85px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .which-color-SUITS {
+  position: absolute;
+  width: 725px;
+  top: 660px;
+  left: 384px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  color: black;
+  font-size: 85px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .LOREM-IPSUM .span {
+  font-style: italic;
+  color: #c56f54;
+}
+
+.ML .text-wrapper-4 {
+  font-style: italic;
+  color: #ffffff;
+}
+
+.ML .group {
+  position: absolute;
+  width: 223px;
+  height: 154px;
+  top: 56px;
+  left: 1430px;
+  transform: rotate(65.37deg);
+}
+
+.ML .ellipse-2 {
+  position: absolute;
+  width: 231px;
+  height: 45px;
+  top: 55px;
+  left: -4px;
+  border-radius: 115.66px/22.41px;
+  border: 1px solid;
+  border-color: #ffa692;
+  transform: rotate(-30deg);
+}
+
+.ML .vector-2 {
+  position: absolute;
+  width: 17px;
+  height: 19px;
+  top: 4005px;
+  left: 1092px;
+  transform: rotate(-65.37deg);
+}
+
+.ML .vector-3 {
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  top: 123px;
+  left: 14px;
+  transform: rotate(-65.37deg);
+}
+
+.ML .studi-mengenai-color .span {
+  position: absolute;
+  width: 793px;
+  top: 1580px;
+  left: 668px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-size: 96px;
+  letter-spacing: 0;
+  color: black;
+  line-height: normal;
+}
+
+.ML .text-wrapper-5 {
+  font-style: italic;
+  color: #c56f54;
+}
+
+.ML .LOREM-IPSUM {
+  position: absolute;
+  width: 1177px;
+  top: 156px;
+  left: 169px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.ML .LOREM-IPSUM {
+  width: 1177px;
+  top: 156px;
+  left: 169px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .ellipse-3 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  top: 2152px;
+  left: 361px;
+  background-color: #ffa692ad;
+  border-radius: 182px;
+  filter: blur(103px);
+}
+
+.ML .ellipse-4 {
+  position: absolute;
+  width: 297px;
+  height: 480px;
+  top: 1147px;
+  left: 0;
+}
+
+.ML .made-a-free-color {
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  top: 1387px;
+  left: 0;
+}
+
+.ML .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 373px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-space-3);
+  padding: var(--spacing-space-0) var(--spacing-space-8) var(--spacing-space-0) var(--spacing-space-8);
+  position: absolute;
+  top: 931px;
+  left: 551px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+}
+
+.ML .text {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.ML .ellipse-5 {
+  position: absolute;
+  width: 322px;
+  height: 570px;
+  top: 160px;
+  left: 1190px;
+}
+
+.ML .text-wrapper-6 {
+  position: absolute;
+  top: 17px;
+  left: 1349px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #c56f54;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .overlap-3 {
+  position: absolute;
+  width: 725px;
+  height: 150px;
+  top: 198px;
+  left: 397px;
+}
+
+.ML .vector-4 {
+  position: absolute;
+  width: 19px;
+  height: 28px;
+  top: 0;
+  left: 2px;
+}
+
+.ML .text-wrapper-7 {
+  width: 725px;
+  top: 22px;
+  left: 0;
+  color: #3e3e3e;
+  font-size: 70px;
+  text-align: center;
+  position: absolute;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .vector-5 {
+  position: absolute;
+  width: 66px;
+  height: 99px;
+  top: 1404px;
+  left: 1346px;
+}
+
+.ML .text-wrapper-8 {
+  position: absolute;
+  top: 2099px;
+  left: 779px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.ML .ellipse-6 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  top: 4080px;
+  left: 1330px;
+  background-color: #ffa692ad;
+  border-radius: 182px;
+  filter: blur(103px);
+}
+
+.ML .overlap-4 {
+  position: absolute;
+  width: 637px;
+  height: 555px;
+  top: 3080px;
+  left: 0;
+}
+
+.ML .ellipse-7 {
+  position: absolute;
+  width: 277px;
+  height: 480px;
+  top: 75px;
+  left: 0;
+}
+
+.ML .image {
+  top: 0;
+  left: 214px;
+  position: absolute;
+  width: 423px;
+  height: 502px;
+}
+
+.ML .text-wrapper-9 {
+  position: absolute;
+  top: 2901px;
+  left: 50%; /* Mengatur posisi horizontal menjadi 50% */
+  transform: translateX(-50%); /* Menggeser teks ke kiri sejauh setengah lebar teks */
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+.ML .text-wrapper-10 {
+  position: absolute;
+  width: 127px;
+  top: 3647px;
+  left: 986px;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .text-wrapper-11 {
+  position: absolute;
+  width: 149px;
+  top: 3652px;
+  left: 351px;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  white-space: nowrap;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .text-wrapper-12 {
+  position: absolute;
+  width: 152px;
+  top: 4315px;
+  left: 974px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .SUMMER {
+  position: absolute;
+  width: 158px;
+  top: 4315px;
+  left: 347px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .vector-6 {
+  position: absolute;
+  width: 45px;
+  height: 223px;
+  top: 23461px;
+  left: -1880px;
+}
+
+.ML .footer {
+  position: absolute;
+  width: 1516px;
+  height: 254px;
+  top: 4621px;
+  left: 0;
+  background-color: transparent;
+}
+
+.ML .overlap-group-2 {
+  position: relative;
+  width: 1512px;
+  height: 254px;
+  background-color: #ffa793ad;
+}
+
+.ML .text-wrapper-13 {
+  width: 161px;
+  top: 37px;
+  left: 53px;
+  color: #000000;
+  font-size: 28px;
+  position: absolute;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .p {
+  position: absolute;
+  top: 190px;
+  left: 53px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #3e3e3e;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ML .frame-wrapper {
+  position: absolute;
+  width: 444px;
+  height: 112px;
+  top: 37px;
+  left: 1021px;
+}
+
+.ML .frame-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 444px;
+  align-items: flex-start;
+  gap: 27px 8px;
+  position: relative;
+}
+
+.ML .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 37px;
+  position: relative;
+  flex: 0 0 auto;
+  font-size: 25px;
+}
+
+.ML .image-2 {
+  top: 3733px;
+  left: 838px;
+  position: absolute;
+  width: 423px;
+  height: 502px;
+}
+
+.ML .image-3 {
+  top: 3080px;
+  left: 838px;
+  position: absolute;
+  width: 423px;
+  height: 502px;
+}
+
+.ML .image-4 {
+  top: 3733px;
+  left: 214px;
+  position: absolute;
+  width: 423px;
+  height: 502px;
+}
+
+.ML .text-wrapper-5 {
+  position: absolute;
+  top: 17px;
+  left: 1349px;
+  font-family: "Tiro Bangla", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #3e3e3e;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}

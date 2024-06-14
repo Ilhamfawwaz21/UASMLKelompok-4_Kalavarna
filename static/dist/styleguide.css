@@ -1,0 +1,70 @@
+:root {
+  --text-sm-font-semibold-font-family: "Inter", Helvetica;
+  --text-sm-font-semibold-font-weight: 600;
+  --text-sm-font-semibold-font-size: 14px;
+  --text-sm-font-semibold-letter-spacing: 0px;
+  --text-sm-font-semibold-line-height: 22px;
+  --text-sm-font-semibold-font-style: normal;
+  --shadow-xs: 0px 1px 2px 0px rgba(26, 26, 26, 0.08);
+  --shadow-sm: 0px 1px 3px 0px rgba(26, 26, 26, 0.08), 0px 0.5px 0px 0px rgba(26, 26, 26, 0.08);
+  --spacing-space-3: 4px;
+  --spacing-space-8: 20px;
+  --spacing-space-0: 0px;
+  --spacing-space-6: 12px;
+  --theme-fill-00: var(--color-mode-colors-alpha-00);
+  --theme-radius-radi-6: 12px;
+  --theme-state-primary-active: var(--color-mode-colors-blue-600);
+  --theme-state-primary-hover: var(--color-mode-colors-blue-500);
+  --color-mode-colors-alpha-00: rgba(255, 255, 255, 1);
+  --color-mode-colors-blue-600: rgba(36, 99, 235, 1);
+  --color-mode-colors-blue-500: rgba(52, 121, 233, 1);
+  --color-mode-colors-orange-600: rgba(233, 89, 12, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-spacing-mode="compact">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-spacing-mode="compact"] {
+  --spacing-space-3: 4px;
+  --spacing-space-8: 20px;
+  --spacing-space-6: 12px;
+}
+
+[data-spacing-mode="spacious"] {
+  --spacing-space-3: 8px;
+  --spacing-space-8: 24px;
+  --spacing-space-6: 16px;
+}
+
+[data-theme-mode="theme-a"] {
+  --theme-radius-radi-6: 12px;
+  --theme-state-primary-active: var(--color-mode-colors-blue-600);
+}
+
+[data-theme-mode="theme-b"] {
+  --theme-radius-radi-6: 24px;
+  --theme-state-primary-active: var(--color-mode-colors-orange-600);
+}
+
+[data-color-mode-mode="light"] {
+  --color-mode-colors-alpha-00: rgba(255, 255, 255, 1);
+  --color-mode-colors-blue-600: rgba(36, 99, 235, 1);
+  --color-mode-colors-blue-500: rgba(52, 121, 233, 1);
+  --color-mode-colors-orange-600: rgba(233, 89, 12, 1);
+}
+
+[data-color-mode-mode="dark"] {
+  --color-mode-colors-alpha-00: rgba(20, 20, 20, 1);
+  --color-mode-colors-blue-600: rgba(80, 161, 255, 1);
+  --color-mode-colors-blue-500: rgba(46, 136, 246, 1);
+  --color-mode-colors-orange-600: rgba(253, 186, 114, 1);
+}
